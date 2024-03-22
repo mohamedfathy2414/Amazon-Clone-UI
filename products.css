@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("./assets/fonts/AmazonEmber_Rg.ttf"), url("./assets/fonts/AmazonEmber_Bd.ttf"),
+        url("./assets/fonts/Amazon-Ember-Medium.ttf");
+}
+
+body {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 12px;
+}
+
+.navbar-brand {
+    font-size: 12px;
+}
+
+.products {
+    padding: 14px 18px 18px;
+}
+
+.hero {
+    padding: 15px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.links a:hover {
+    color: chocolate;
+}
+.sidebar {
+    border: 1px solid lightgrey;
+}
+
+/* #navbarNavDropdown ul li a {
+    color: white;
+}
+#navbarNavDropdown {
+    margin-top: 5px;
+} */
+.mainnav {
+    background-color: #131921;
+    /* background-color: #c1c8d2; */
+    padding: 10px;
+}
+.nav2 {
+    background-color: #1c2735;
+    /* background-color: #c1c8d2; */
+    padding: 10px;
+}
+#navbarNavDropdown ul li a {
+    color: white;
+}
+#navbarNavDropdown {
+    margin-top: 5px;
+}
+footer section {
+    background-color: #232f3e;
+    padding-top: 15px;
+}

@@ -1,0 +1,277 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --background-dark: #eaeded;
+  --cart-background: #fff;
+  --a-color-link: #007185;
+  --price-color: #0f1111;
+  --main-background-color: #ececec;
+  --main-transtion: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--background-dark);
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #b12704;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0 px;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 28px;
+}
+
+/* navbar */
+
+.container-nav {
+  display: flex;
+  width: 100%;
+  background-color: #131921;
+  /* background-color: #c1c8d2; */
+  padding: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#navbarNavDropdown ul li a {
+  color: white;
+}
+#navbarNavDropdown {
+  margin-top: 5px;
+}
+/* footer section{
+     background-color:#232F3E;
+     padding-top: 15px;
+ } */
+
+/* ========================================= */
+.category_path {
+  display: flex;
+  /* background-color: aqua; */
+}
+.path_category_links {
+  display: flex;
+}
+.a_path_list {
+  display: flex;
+}
+.a-item-path {
+  margin: 0 5px;
+}
+
+.product_image {
+  display: grid;
+}
+.product_name {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.rating-block {
+  display: flex;
+}
+.stars {
+  color: #ff8f00;
+}
+
+.price-value {
+  color: #b12704;
+  font-weight: 500;
+}
+/* ========== تعديل فتحي============== */
+.w3 {
+  width: 10%;
+}
+.h3 {
+  height: 30%;
+}
+/* ================== */
+.offer-text {
+  font-weight: 500;
+}
+.scroll-service {
+  display: flex;
+}
+.service-image img {
+  height: 35px !important;
+  width: 35px !important;
+  /* display: inline-block; */
+}
+
+.service-name-block {
+  display: flex;
+  box-sizing: border-box;
+}
+.service-name {
+  color: #007185 !important;
+  font-size: 14px;
+  /* display: inline-block; */
+  /* line-height: 1.3px; */
+}
+
+.delivery-location {
+  display: flex;
+  cursor: pointer;
+}
+
+.stock-amount {
+  color: #b12704;
+  font-weight: 500;
+}
+
+.cart-button {
+  background-color: #fcd200;
+  background: #ffd814;
+  cursor: pointer;
+}
+
+.buy-button {
+  background-color: #ff8f00;
+}
+.buy-button,
+.cart-button {
+  border-radius: 100px;
+
+  text-align: center;
+}
+
+.owner-details,
+.factory-details {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+}
+.item-feature-li ul {
+  list-style: disc;
+}
+
+.search-input {
+  width: 97.5%;
+}
+.search-icon {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.input-search-width {
+  padding-left: 29px;
+  width: 92.5%;
+  border-radius: 5px;
+}
+
+.renwd-information {
+  text-align: center;
+}
+
+.renewd-description-points {
+  display: flex;
+}
+
+.points-containers {
+  display: flex;
+  text-align: center;
+}
+.renewd-point img {
+  max-width: 120px;
+  max-height: 120px;
+  margin-bottom: 10px;
+}
+.renewd-point h4 {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+.point-description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.rating-stars {
+  display: flex;
+}
+
+tars-progress .progress-rate {
+  display: flex;
+  /* justify-content: center;
+     */
+  text-align: center;
+  position: relative;
+}
+
+.small-review span {
+  font-size: 14px;
+}
+.style-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-style {
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-style {
+  display: flex;
+}
+.specific-color {
+  color: #ff8f00;
+}
+
+footer .back-to-top {
+  background-color: #232f3eef;
+
+  cursor: pointer;
+}
+footer .back-to-top:hover {
+  background-color: #232f3eea;
+}
+footer .contact-us {
+  background-color: #232f3e;
+}
+footer .contact-us a {
+  color: #fff;
+}
+footer .logo-lang {
+  background-color: #232f3e;
+}
+
+footer .logo-lang .cart-icon-container .cart-icon {
+  right: 5px;
+  top: 30%;
+  color: #cccccc;
+}
+footer .logo-lang .cart-icon-container i:last-child {
+  top: 5px;
+  right: 5px;
+  color: #cccccc;
+}
+footer .footer-info {
+  background-color: #131a22;
+}
+footer .conditions {
+  background-color: #131a22;
+}
+@media (max-width: 768px) {
+  footer .conditions {
+    font-size: 12px !important;
+  }
+}

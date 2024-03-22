@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("./assets/fonts/AmazonEmber_Rg.ttf"), url("./assets/fonts/AmazonEmber_Bd.ttf"),
+        url("./assets/fonts/Amazon-Ember-Medium.ttf");
+}
+
+body {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 12px;
+}
+.create-acc {
+    text-decoration: none;
+    color: black;
+}

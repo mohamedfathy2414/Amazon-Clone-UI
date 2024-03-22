@@ -1,0 +1,105 @@
+.pos2 {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+.w2 {
+  width: 30%;
+}
+.w3 {
+  width: 10%;
+}
+.h3 {
+  height: 30%;
+}
+
+.min {
+  margin-top: -23%;
+}
+
+.h3 {
+  height: 2%;
+}
+.hov:hover {
+  background-color: rgba(143, 134, 136, 0.3);
+  border: 1px solid black;
+}
+
+.hov2:hover {
+  background-color: transparent;
+  border: 2px solid rgba(13, 44, 219, 0.3);
+  border-radius: 10%;
+}
+
+.w0 {
+  width: 100px;
+}
+.radious {
+  border-radius: 30%;
+}
+
+.ahov:hover {
+  color: brown;
+}
+.posab {
+  bottom: 10%;
+  left: 5%;
+}
+
+.fs0 {
+  font-size: 12px;
+}
+img:hover {
+  cursor: pointer;
+}
+
+.checked {
+  color: orange;
+}
+
+.bg-back {
+  background-color: rgba(78, 63, 63, 0.1);
+}
+.h55 {
+  height: 40%;
+}
+
+.nnav {
+  background-color: #131921;
+  /* background-color: #c1c8d2; */
+  padding: 10px;
+}
+#navbarNavDropdown ul li a {
+  color: white;
+}
+#navbarNavDropdown {
+  margin-top: 5px;
+}
+footer section {
+  background-color: #232f3e;
+  padding-top: 15px;
+}
+
+.ptmin {
+  margin-top: -24px;
+}
+
+@media screen and (max-width: 650px) {
+  .last {
+    display: none;
+  }
+}
+
+.imp {
+  z-index: 999 !important;
+  overflow: visible;
+}
+
+.miinp {
+  padding-top: 10px;
+}
+.mo {
+  padding: 50px;
+  margin-top: -250px;
+  overflow: visible;
+}
